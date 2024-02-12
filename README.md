@@ -1,5 +1,3 @@
-## Piyush Palariya - Web Developer in Progress 
-
 Hi there! I'm Piyush, a student at GBPUAT pursuing an MCA degree and an aspiring web developer. I'm passionate about building interactive and user-friendly applications using the MERN stack (MongoDB, Express.js, React.js, and Node.js).
 
 This GitHub profile showcases my ongoing projects and learning journey. Feel free to explore, connect, and share your feedback!
