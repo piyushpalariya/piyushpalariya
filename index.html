@@ -199,9 +199,14 @@
         <h2 class="section-title">Contact</h2>
 
         <div class="contact__container bd-grid">
-          <form action="" class="contact__form">
+          <form
+            onsubmit="return validateForm()"
+            class="contact__form"
+            action="form.php"
+            method="post"
+          >
             <input type="text" placeholder="Name" class="contact__input" />
-            <input type="mail" placeholder="Email" class="contact__input" />
+            <input type="email" placeholder="Email" class="contact__input" />
             <textarea
               name=""
               id=""
@@ -209,11 +214,7 @@
               rows="10"
               class="contact__input"
             ></textarea>
-            <input
-              type="button"
-              value="send"
-              class="contact__button button"
-            />
+            <input type="submit" value="send" class="contact__button button" />
           </form>
         </div>
       </section>
